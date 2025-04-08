@@ -19,7 +19,6 @@ Hehe siap! Berikut README yang cocok buat project kamu **Mediverse Mobile** deng
 
 ---
 
-```markdown
 # 📱 Mediverse Mobile
 
 Mediverse Mobile adalah aplikasi mobile dari platform Mediverse — sistem reservasi medis online yang menghubungkan pasien, dokter, dan fasilitas kesehatan dalam satu ekosistem digital.
