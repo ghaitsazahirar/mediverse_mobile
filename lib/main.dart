@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
+import 'supabase.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initSupabase();   
+  // Coba query user untuk cek koneksi
+  final user = Supabase.instance.client.auth.currentUser;
+  print("Current user: $user");                   
   runApp(const MyApp());
 }
 
