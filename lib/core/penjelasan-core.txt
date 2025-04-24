@@ -1,0 +1,2 @@
+core ini buat inisialisasi error biar sejenis. jadi nanti tinggal dipanggil doang dah ni error
+ke tempat atau file yang dimau
